@@ -15,7 +15,7 @@ The following tools are currently available:
 
 * [bibfile-overlap](./src/bibfile-overlap.ipynb) : a tool detecting overlapping identifiers and titles of references in a bibliography file (`.bib`) as typically used in scientific publications written in LaTeX.
 * [search-string-construction](./src/search-string-construction.ipynb) : a tool generating a search string from a list of concepts, a matrix of synonyms, and a list of relevant search fields. The search string can be used in academic databases for a systematic search.
-* [dockerization](./src/dockerization/) : a exeplary repository demonstrating a simple use of docker and docker-compose to start a RESTful API realized with `fastAPI`.
+* [dockerization](./src/dockerization/) : a exeplary repository demonstrating a simple use of Docker and docker-compose to start a RESTful API realized with `fastAPI`. More importantly, it demonstates how the file-structure should look like in case the main file ([service.py](./src/dockerization/service.py)) references helper files in subordinate folders ([helper.py](./src/dockerization/src/util/helper.py)).
 
 ## Documentation
 
@@ -31,3 +31,5 @@ The [dockerization](./src/dockerization/) folder can be used to explore the prop
 2. Via Docker-compose:
   1. build the image with `docker-compose build`
   2. start the container with `docker-compose run`
+
+Once the docker container is running, you can access the service at `localhost:8080/health`
