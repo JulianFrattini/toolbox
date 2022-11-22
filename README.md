@@ -13,9 +13,10 @@ The repository currently consists of the following elements:
 
 The following tools are currently available:
 
-* [bibfile-overlap](./src/bibfile-overlap.ipynb) : a tool detecting overlapping identifiers and titles of references in a bibliography file (`.bib`) as typically used in scientific publications written in LaTeX.
-* [search-string-construction](./src/search-string-construction.ipynb) : a tool generating a search string from a list of concepts, a matrix of synonyms, and a list of relevant search fields. The search string can be used in academic databases for a systematic search.
-* [dockerization](./src/dockerization/) : a exeplary repository demonstrating a simple use of Docker and docker-compose to start a RESTful API realized with `fastAPI`. More importantly, it demonstates how the file-structure should look like in case the main file ([service.py](./src/dockerization/service.py)) references helper files in subordinate folders ([helper.py](./src/dockerization/src/util/helper.py)).
+* [bibfile-overlap](./src/bibfile-overlap.ipynb): a tool detecting overlapping identifiers and titles of references in a bibliography file (`.bib`) as typically used in scientific publications written in LaTeX.
+* [search-string-construction](./src/search-string-construction.ipynb): a tool generating a search string from a list of concepts, a matrix of synonyms, and a list of relevant search fields. The search string can be used in academic databases for a systematic search.
+* [dockerization](./src/dockerization/): an exemplary repository demonstrating a simple use of Docker and docker-compose to start a RESTful API realized with `fastAPI`. More importantly, it demonstates how the file-structure should look like in case the main file ([service.py](./src/dockerization/service.py)) references helper files in subordinate folders ([helper.py](./src/dockerization/src/util/helper.py)).
+* [thunderpython](./src/thunderpython.ipynb): a simple routine to start the Thunderbird email client and prepare a mail to a target. This can be used for mail series.
 
 ## Documentation
 
